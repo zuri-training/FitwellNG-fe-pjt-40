@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitwell</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/sign-up.css">
+</head>
+
+<body>
+    <section>
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col image-bg">
+                    <img class="img-fluid" src="../assets/images/sign-up-bg1.png" id="img" />
+                    <span class="dimmer"></span>
+                    <p class="quote" id='quote'>Your body is your most precious tool, so
+                        “Stay Healthy, Stay Safe”</p>
+                </div>
+                <div class="col">
+                    <h1 class="pt-3 logo text-center"><img src="../assets/images/logo.png">Fitwell</h1>
+                    <h3 class="blue-text text-center">Create your account</h3>
+                    <form action="" id="msform">
+                        <ul id="progressbar">
+                            <li>
+                                <div class="circle active">1</div>
+                                <p>About you</p>
+                            </li>
+                            <span class="connector"></span>
+                            <li>
+                                <div class="circle">2</div>
+                                <p>Almost done</p>
+                            </li>
+                            <span class="connector"></span>
+                            <li>
+                                <img src="../assets/images/star.svg" alt="">
+                                <p>Great</p>
+                            </li>
+                        </ul>
+
+                        <fieldset>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="form-group col-md-6">
+                                        <label class="fieldlabel" for="fname">First Name</label>
+                                        <input type="text" class="form-control" id="fname">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="lname">Last Name</label>
+                                        <input type="text" class="form-control" id="lname">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="email">Email</label>
+                                        <input type="emai" class="form-control" id="email">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="number">Phone Number</label>
+                                        <input type="tel" class="form-control" id="number">
+                                    </div>
+
+                                    <div class="form-group col-md-6 text-left">
+                                        <label for="date">Date of birth</label>
+                                        <input type="date" class="form-control" id="date">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="sex">Sex</label>
+                                        <select class="form-control" id="sex">
+                                            <option selected>Select your gender</option>
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button type="button" name="next" class="next btn text-right">Next</button>
+                            </div>
+                        </fieldset>
+
+
+                        <fieldset>
+                            <div class="container">
+                                <div class="row">
+                                    
+                                    <div class="form-group col-md-6">
+                                        <label for="nationality">Nationality</label>
+                                        <select class="form-control" id="nationality">
+                                            <option selected>Select your nationality</option>
+                                            <option value="nigeria">Nigeria</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="state">State</label>
+                                        <select class="form-control" id="state">
+                                            <option selected>Select your State</option>
+                                            <option value="lagos">Lagos</option>
+                                            <option value="abuja">Abuja</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group col-md-6">
+                                        <label class="fieldlabel" for="height">Height(in cm)</label>
+                                        <input type="text" class="form-control" id="height">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="weight">Weight(in Kg)</label>
+                                        <input type="number" class="form-control" id="weight">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button type="button" name="next" class="next btn text-right">Next</button>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="form-group col-md-6">
+                                        <label class="fieldlabel" for="pword1">Password</label>
+                                        <input type="password" class="form-control" id="pword1">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="pword2">Repeat password</label>
+                                        <input type="password" class="form-control" id="pword2">
+                                    </div>
+                                    <div class="form-group col-md-8">
+                                        <label for="squestion">Security question</label>
+                                        <select class="form-control" id="state">
+                                            <option selected>Enter security question</option>
+                                            <option value="name">What is your name</option>
+                                            <option value="friend">Who is your best friend</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-8">
+                                        <label for="squestionanswer">Answer to security question</label>
+                                        <input type="text" class="form-control" id="squestionanswer">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button type="submit" class="btn text-right">Create account</button>
+                            </div>
+                        </fieldset>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../assets/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
