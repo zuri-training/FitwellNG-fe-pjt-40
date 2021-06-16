@@ -2,6 +2,9 @@
 
 html, body{
     font-family: Sarabun;
+    background-image: url("../images/bg.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .logo{
@@ -12,6 +15,7 @@ html, body{
 
 .btn{
     padding: 7px 50px;
+    margin: 0 5px;
     border-radius: 40px;
     background-color: #DA0013;
     color: white;
