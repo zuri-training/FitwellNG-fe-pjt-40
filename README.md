@@ -41,6 +41,6 @@ Code will be reviewed and merged if "okay" Branch out from updated version of ma
 
 Note:
 •	Frontend is built independently from the fe-github of this project.
-•	All coded UI will draw from here.
+•	All coded UI will draw from here and synchronised update.
 •	Use DB schema shared in communication channel to create models. (STRICTLY!)
 
