@@ -14,6 +14,11 @@
             <div class="logo">
                 <a href="#"><img src="./desktop-image/icons/logo.svg" alt="logo"><p>FITWELL</p></a>
             </div>
+            <div class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            </div>
+            <div class="links">
             <ul class="nav-links">
                 <li><a href="#"><img src="./desktop-image/icons/dashboard.svg" alt="dashboard"><p>Dashboard</p></a></li>
                 <li><a href="#"><img src="./desktop-image/icons/Graph.svg" alt="analytics"><p>Analytics</p></a></li>
@@ -24,6 +29,7 @@
                 <li><a href="#"><img src="./desktop-image/icons/settings.svg" alt="settings"><p>Settings</p></a></li>
                 <li><a href="#"><img src="./desktop-image/icons/logout.svg" alt="log out"><p>Log Out</p></a></li>
             </ul>
+            </div>
         </nav>
         <main class="container">
             <div class="menu-bar">
@@ -104,6 +110,19 @@
                             <p>Calories Burnt</p>
                             <div class="program-content">
                                 <img src="./desktop-image/icons/calorie.png" alt="calorie">
+                                <!-- calorie progress bar -->
+                                <div class="progress-box">
+                                    <div class="rotate">
+                                        <div class="rotate1"></div>
+                                        <div class="rotate2"></div>
+                                        <div class="rotate3"></div>
+                                        <div class="progress-content">
+                                            <h1 id="count">3560</h1>
+                                            <p>calories</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- progress bar end -->
                             </div>
                         </article>
                         <article>
@@ -126,5 +145,6 @@
                 </aside>
             </div>
         </main>
+        <script src="./dashboard.js"></script>
     </body>
 </html>

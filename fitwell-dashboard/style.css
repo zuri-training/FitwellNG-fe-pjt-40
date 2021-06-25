@@ -18,7 +18,6 @@
     margin: 0;
     padding: 0;
     font-family: var(--font);
-    /* outline: 1px solid red; */
 }
 body {
     width: 100vw;
@@ -36,6 +35,9 @@ body {
     background: var(--dark-blue);
     padding: 50px 10px 30px 10px;
     position: fixed;
+}
+.hamburger-menu {
+    display: none;
 }
 .nav-links, .options {
     width: 100%;
@@ -304,8 +306,72 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     color: var(--white);
+    font-family: 700;
+    font-size: 24px;
 }
+/* progress bar start */
+.progress-box {
+    width: 150px;
+    height: 150px;
+}
+.rotate {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: var(--white);
+    overflow: hidden;
+    position: relative;
+}
+.rotate1, .rotate2, .rotate3 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: right center;
+}
+.rotate1 {
+    background: var(--dark-red);
+}
+.program-content:hover .rotate1 {
+    transform: rotate(180deg);
+    transition: 1s transform linear;
+}
+.rotate2 {
+    background: var(--dark-red);
+}
+.program-content:hover .rotate2{
+    transform: rotate(320deg);
+    transition: 1.6s transform linear;
+}
+.rotate3 {
+    background: var(--white);
+}
+.program-content:hover .rotate3 {
+    opacity: 0;
+    transition: 0s linear 1s;
+}
+.progress-content {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--dark-blue);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.progress-content p {
+    font-size: 16px;
+    font-weight: 400;
+}
+/* progress bar end */
 .red {
     background: var(--dark-red);
 }
@@ -319,4 +385,117 @@ body {
     top: -30px;
     left: 50%;
     transform: translateX(-50%);
+}
+@media (max-width: 650px) {
+    body {
+        width: 100vw;
+        height: 100%;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 16vh;
+        z-index: 10;
+        margin: 0;
+        padding: 0;
+    }
+    .logo {
+        margin: 0;
+        position: absolute;
+        top: 25px;
+        left: 30px;
+    }
+    .hamburger-menu {
+        position: absolute;
+        top: 40px;
+        right: 30px;
+        display: inline-block;
+    }
+    .links {
+        display: none;
+    }
+    .active {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: absolute;
+        bottom: 30px;
+    }
+    .nav-links, .options {
+        width: 80%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-links li, .options li {
+        width: 60%;
+        margin: 5px 0;
+        border: 1px solid transparent;
+        transition: 1s border ease-out .2s;
+        border-radius: 12px;
+    }
+    .hamburger-menu i {
+        font-size: 36px;
+        color: var(--white);
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        transform: translateX(0);
+        margin-top: 16vh;
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .dashboard {
+        width: 100%;
+        margin: 0;
+    }
+    .menu-bar {
+        align-items: center;
+    }
+    .menu-bar h1 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .menu-bar form, .menu-bar label {
+        background: transparent;
+        cursor: pointer;
+    }
+    .textbox, .bell-notify {
+        display: none;
+    }
+     .profile {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .profile h3 {
+        padding-right: 5px;
+    }
+    .sub-dashboard {
+
+        align-items: center;
+    }
+}
+@media (max-width: 400px) {
+    .profile {
+        display: none;
+    }
+    .menu-bar h1 {
+        margin-right: 10px;
+    }
 }
