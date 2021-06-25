@@ -1,0 +1,70 @@
+ /* ################ PROJECT ##################*/
+ .projects{
+    /* height: 100vh; */
+    padding: 2px;
+    /* background:linear-gradient(to right, rgb(0, 58, 117, 0.6), rgb(0, 50, 110, 0.9)); */
+    color: #fff;
+   }
+  .projects .heading-other {
+    color:red;
+    width: 100%;
+    align-items: start;
+    margin-bottom: 0rem;
+    }
+  /* .projects .heading-other .seperator {
+      border: 1px solid #da0013;
+      margin: 2.4rem 0;
+    } */
+   .projects a img{
+    border-radius: 10px;
+  }
+
+  .projects h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 2px;
+  }
+  .minaret, .yim, .cypherdevs{
+    /* margin: auto; */
+    padding: 17px 0;
+  }
+
+  .minaret h5, .yim h5{
+    padding-bottom: 20px;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  .projects-centre h5{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  .projects-centre a{
+    transition: opacity 2s ease;
+    border-radius: 5px;
+  }
+  .projects-centre a:hover{
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  @media screen and (min-width: 776px){
+    .projects{
+    /* background:linear-gradient(to right, rgb(0, 58, 117, 0.6), rgb(0, 50, 110, 0.9)); */
+      color: red;
+    }
+ .projects-centre{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  align-items: center;
+  }
+  .projects-center{
+  margin-top: 30px;
+  }
+  .minaret, .yim, .cypherdevs{
+    text-align: center;
+}
+}
