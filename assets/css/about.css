@@ -141,6 +141,10 @@ svg {
     letter-spacing: 0.04em;
   }
 
+  .nav-link {
+    margin: 15px 0 !important;
+  }
+
   .hero-about {
     height: auto;
   }
