@@ -254,11 +254,11 @@
   position: relative;
 }
 
-svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .hr {
@@ -270,7 +270,7 @@ svg {
 
 /* mobile Responsiveness */
 
-@media (max-width: 920px) {
+@media (max-width: 991px) {
   .hero-inner {
     top: 50%;
     left: 50%;
