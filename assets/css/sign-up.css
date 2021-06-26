@@ -111,3 +111,35 @@
 .row {
   display: flex;
 }
+
+@media (max-width: 768px) {
+  .progressbar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .progressbar li {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    border: 2px solid #da0013;
+    display: block;
+  }
+
+  .progressbar li:after {
+    content: none;
+  }
+  .row {
+    flex-direction: column;
+  }
+}
