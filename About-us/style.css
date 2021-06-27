@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100vw;
+}
 
 nav{
     display: flex;
@@ -14,11 +17,26 @@ nav{
 .logo{
     width: 30%;
 }
-.hero{
-
+.hero_section{
+    background-color: white;
 }
 .hero_content{
-    background-image: url(Rectangle2.png);
-    background-size: 100px 80px;
-    background-repeat: no-repeat;
+    background-color: gray;
+}
+
+.hero_content_text{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    float: right;
+    top: 228px;
+}
+
+.image2{
+    max-width: 50%;
+    padding-top: 20px;
+    margin-left: 100px;
 }
