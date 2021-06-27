@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <header class="">
+    <header class="header">
       <!-- Start of navbar -->
 
       <nav
@@ -33,21 +33,39 @@
           mybg-nav
         "
       >
-        <div class="container-fluid align-items-center">
+        <div class="container-fluid align-items-center w-100 ">
           <a class="navbar-brand" href="../index.html"
             ><img src="../assets/images/landing/logo.png" alt=""
           /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+
+                     
+
+<div class="d-flex">
+
+  <div class="d-flex btn-desk">
+              
+                <a class=" btn my-btn text-decoration-none" href="../pages/sign-up.html"
+                  >SIGN UP</a
+                >
+             
+                <a class=" btn bg-dark my-btn text-decoration-none" href="../pages/login.html"
+                  >LOGIN</a
+                >
+                </div>
+
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <img src="../assets/images/about/menu-icon.png" alt="" class="img-fluid navbar-toggler-icon">
+  </button>
+
+</div>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto align-items-center">
               <li class="nav-item">
@@ -61,18 +79,19 @@
               <li class="nav-item">
                 <a class="nav-link" href="../pages/about.html">ABOUT US</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item btn-hide-mb">
                 <a class="nav-link btn my-btn" href="../pages/sign-up.html"
                   >SIGN UP</a
                 >
               </li>
 
-              <li class="nav-item">
+              <li class="nav-item btn-hide-mb">
                 <a class="nav-link btn bg-dark my-btn" href="../pages/login.html"
                   >LOGIN</a
                 >
               </li>
             </ul>
+           
           </div>
         </div>
       </nav> <!-- End of navbar -->
@@ -288,7 +307,7 @@
           <h2 class="h2 text-center fw-bold mt-4" data-aos="fade-down" data-aos-duration="1000">Best Training Coach</h2>
 
           <div class="row justify-content-center align-items-center mt-5">
-            <div class="col-lg-4 col-md-4 col-sm-6 col-6 my-4  d-flex justify-content-center">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12 my-4">
               <div class="card">
                 <img
                   src="../assets/images/about/p1.png"
@@ -307,8 +326,8 @@
               </div>
             </div>
 
-              <div class="col-lg-4 col-md-4 col-sm-6 col-6 my-4 d-flex justify-content-center">
-              <div class="card">
+              <div class="col-lg-4 col-md-4 col-sm-6 col-12 my-4 d-flex justify-content-center">
+              <div class="card card-mb">
                 <img
                   src="../assets/images/about/p2.png"
                   class="card-img-top"
@@ -326,8 +345,8 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-sm-6 col-6 my-4 d-flex justify-content-center">
-              <div class="card">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12 my-4 d-flex justify-content-center">
+              <div class="card card-mb">
                 <img
                   src="../assets/images/about/p3.png"
                   class="card-img-top"
@@ -447,30 +466,30 @@
             <div
               class="
                 footer-icon
-                d-flex
+                d-flex mb-3
                 justify-content-between
                 align-items-center
               "
             >
-              <a href="#" class="mx-3"
+              <a href="#" class="mx-4"
                 ><img
                   src="../assets/images/about/in.png"
                   alt=""
                   class="img-fluid"
               /></a>
-              <a href="#" class="mx-3"
+              <a href="#" class="mx-4"
                 ><img
                   src="../assets/images/about/fb.png"
                   alt=""
                   class="img-fluid"
               /></a>
-              <a href="#" class="mx-3"
+              <a href="#" class="mx-4"
                 ><img
                   src="../assets/images/about/tw.png"
                   alt=""
                   class="img-fluid"
               /></a>
-              <a href="#" class="ml-3"
+              <a href="#" class="ml-4"
                 ><img
                   src="../assets/images/about/yt.png"
                   alt=""
