@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(179, 218, 218);
+}
+.logo{
+    width: 30%;
+}
+.hero_section{
+    background-color: white;
+}
+.hero_content{
+    background-color: gray;
+}
+
+.hero_content_text{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    float: right;
+    top: 228px;
+}
+
+.image2{
+    max-width: 50%;
+    padding-top: 20px;
+    margin-left: 100px;
+}
