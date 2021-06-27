@@ -11,6 +11,29 @@
   background-color: #fff !important;
 }
 
+.navbar-toggler {
+  color: none;
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+.navbar-toggler:focus {
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+.navbar > button {
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+.navbar-toggler-icon {
+  color: none;
+  border: 0 !important;
+  outline: 0 !important;
+  height: 1em;
+}
+
 .nav-link {
   color: #1f1e1d !important;
   padding: 0 20px !important;
@@ -24,6 +47,10 @@
 
 .nav-link:hover {
   color: #ee2234 !important;
+}
+
+div.btn-desk {
+  display: none !important;
 }
 
 .my-btn {
@@ -130,15 +157,44 @@
   height: 2px;
 }
 
+#card-mb {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
 /* End of footer */
 
 /* mobile Responsiveness */
 
 @media (max-width: 991px) {
+  .navbar-brand img {
+    width: 100%;
+  }
+
+  .btn-hide-mb {
+    display: none;
+  }
+
+  div.btn-desk {
+    display: flex !important;
+  }
+
+  .my-btn {
+    margin: 0 5px !important;
+    font-size: 12px !important;
+  }
+
   .h3-header {
     font-size: 30px;
     line-height: 40px;
     letter-spacing: 0.04em;
+  }
+
+  #card-mb {
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important;
   }
 
   .nav-link {
@@ -234,5 +290,15 @@
   .m-tip {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 408px) {
+  .btn-hide-mb {
+    display: flex;
+  }
+
+  div.btn-desk {
+    display: none !important;
   }
 }
