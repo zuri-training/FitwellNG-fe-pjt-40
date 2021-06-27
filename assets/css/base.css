@@ -101,3 +101,10 @@ input,
 label {
   display: block;
 }
+
+#date {
+  display: block;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
