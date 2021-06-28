@@ -53,28 +53,28 @@ color: #124E78;
   background-color: #fff !important;
 }
 
-.navbar-toggler {
-  color: none;
-  border: 0 !important;
-  outline: 0 !important;
-}
-
 .navbar-toggler:focus {
-  border: 0 !important;
   outline: 0 !important;
+  box-shadow: 0 !important;
 }
 
-.navbar > button {
-  border: 0 !important;
-  outline: 0 !important;
+.navbar button.navbar-toggle { border: none; }
+
+.navbar-light .navbar-toggler {
+  color: transparent !important;
+  border-color: transparent !important;
 }
 
-.navbar-toggler-icon {
-  color: none;
-  border: 0 !important;
+.navbar-toggler:focus{
   outline: 0 !important;
-  height: 1em;
+  box-shadow: 0 !important;
 }
+
+.navbar-toggler{
+  border: 0 !important;
+  padding: 0 !important;
+}
+
 
 .nav-link {
   color: #1f1e1d !important;
@@ -115,7 +115,8 @@ div.btn-desk {
 /* Hero Section */
 
 .hero-about {
-  height: 745px;
+  /* height: 745px; */
+  height: auto;
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0.05) 0%,
@@ -123,9 +124,25 @@ div.btn-desk {
   );
 }
 
+.hero-left-content{
+  align-self: baseline;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  /* width: 577px;
+  height: 671px; */
+}
+
+/* .l-img{
+  width: 100%;
+  align-self: baseline;
+  height: 100%;
+} */
+
 .about-img img {
-  width: 577px;
-  height: 651px;
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
 }
 
 .h3-header {
@@ -139,6 +156,10 @@ div.btn-desk {
 
 .mt-6 {
   margin-top: 10rem;
+}
+
+.my-6{
+  margin: 8rem auto !important;
 }
 
 /* About writeup */
@@ -223,7 +244,7 @@ div.btn-desk {
   }
 
   .my-btn {
-    margin: 0 5px !important;
+    margin-right: 30px !important;
     font-size: 12px !important;
   }
 
@@ -284,14 +305,7 @@ div.btn-desk {
     height: 100%;
     background: #0a2c44;
   }
-  svg {
-    /* position: relative; */
-    margin-top: 40px !important;
-    margin-bottom: 100px !important;
-    width: 50%;
-    height: auto;
-  }
-
+  
   .h3-header,
   .lor {
     text-align: center;
