@@ -189,7 +189,7 @@ div.btn-desk {
 }
 
 .viewall a {
-  color: #0d6efd;
+  color: #0a2c44;
   text-decoration: none;
   color: #ee2234;
   font-weight: 600;
@@ -285,7 +285,7 @@ div.btn-desk {
   line-height: 29px;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  color: rgba(18, 78, 120, 0.5);
+  color: #0a2c44;
 }
 
 .btn-link {
@@ -296,7 +296,7 @@ div.btn-desk {
   line-height: 21px;
   letter-spacing: 0.01em;
   text-transform: capitalize;
-  color: #124e78;
+  color: #0a2c44;
 }
 
 .qpr {
@@ -404,7 +404,7 @@ div.btn-desk {
 
   .footer-container {
     height: 100%;
-    background: #124e78;
+    background: #0a2c44;
   }
   svg {
     /* position: relative; */
