@@ -7,6 +7,48 @@
   font-family: 'Sarabun', sans-serif;
 }
 
+/* Totop Navigation */
+
+#topicon{
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.totop{
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 0 12px;
+  text-decoration: none;
+border: 3px solid #124E78;
+bottom: 20px;
+right: 20px;
+position: fixed;
+transition: 1s ease-in-out;
+font-size: 25px;
+display: none;
+}
+
+.totop.scrollup{
+  display: block;
+}
+
+.totop.scrollup{
+  display: block;
+}
+
+.totop:hover{
+  background-color: #124e78;
+  transition: background .5s ease-in-out;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+.din-color{
+color: #124E78;
+}
+
+/* End of Totop Navigation */
+
 .mybg-nav {
   background-color: #fff !important;
 }
@@ -90,7 +132,7 @@ div.btn-desk {
   background: rgba(255, 255, 255, 0.9);
   border-radius: 16px;
   transform: translate(-50%, -50%);
-  padding: 45px 82px;
+  padding: 35px 82px;
   align-items: center;
   text-align: left !important;
   display: grid;
@@ -116,16 +158,18 @@ div.btn-desk {
   position: relative;
 }
 
+
+
 .cpp::after {
   position: absolute;
   content: '';
   text-align: center;
-  width: 110px;
+  width: 90px;
   height: 4px;
   background-color: #ee2234;
   border-radius: 50px;
   bottom: -12px;
-  left: 28%;
+  left: 23%;
 }
 
 .cpp2 {
@@ -141,7 +185,7 @@ div.btn-desk {
   background-color: #ee2234;
   border-radius: 50px;
   bottom: -12px;
-  left: 21%;
+  left: 16%;
 }
 
 .viewall a {
@@ -305,6 +349,10 @@ div.btn-desk {
     width: 100%;
   }
 
+
+  .qt-img {
+    height: auto;
+  }
   .btn-hide-mb {
     display: none;
   }
