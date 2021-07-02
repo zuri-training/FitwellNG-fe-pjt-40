@@ -2,7 +2,22 @@
   .image-bg {
     display: none;
   }
+
+  .main{
+    width: 100% !important;
+    margin: 0;
+  }
+
+  .img-container{
+    display: none;
+  }
 }
+
+/* @media screen and (max-width: 1024px){
+   .img-container{
+  width: 30% !important;
+}
+} */
 
 .container {
   display: flex;
@@ -10,14 +25,24 @@
   min-height: 100vh;
 }
 
-.image-bg {
-  position: relative;
-  min-width: 40%;
-  background-image: url('../images/sign-up-bg1.png');
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
+.img-container{
+  width: 40%;
+  height: 100vh;
+  position: fixed;
+  box-sizing: border-box;
 }
+
+.img-container img{
+  width: 100%;
+}
+
+/* .image-bg {
+  position: relative;
+     background-image: url('../images/sign-up-bg1.png'); 
+  background-position: left; 
+   background-repeat: no-repeat;
+  background-size: cover; 
+} */
 
 #msform fieldset:not(:first-of-type) {
   display: none;
@@ -31,9 +56,11 @@
 .main {
   padding: 26px;
   display: flex;
+  width: 60%;
   flex-direction: column;
-  flex: 1;
+  /* flex: 1; */
   position: relative;
+  margin-left: calc(45% - 3rem);
 }
 
 .blue-text {
@@ -112,12 +139,39 @@
   display: flex;
 }
 
+.signup-label {
+  margin:0 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-label a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: #46a2e3;
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.signup-label p {
+  color: #000000;
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 500;
+}
+
 @media (max-width: 768px) {
   .progressbar {
     display: flex !important;
     flex-wrap: wrap !important;
     align-items: center;
     box-sizing: border-box;
+  }
+
+  .image-bg {
+    display: none;
   }
 
   .progressbar li {
@@ -167,4 +221,13 @@
     -moz-appearance: none;
     appearance: none;
   }
+  .main{
+    width: 100% !important;
+    margin: 0;
+  }
+
+  .img-container{
+    display: none;
+  }
+
 }

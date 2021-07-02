@@ -14,22 +14,27 @@
 <body>
     <section>
         <div class="container">
-            <div class="image-bg" id="img">
+            <div class="img-container">
+                <div class="image-bg" id="img">
+                    <img src="../assets/images/sign-up-bg1.png" alt="">
+                </div>
             </div>
+          
             <div class="main">
                 <div class="logo">
                     <img src="../assets/images/logo.svg">
+
                     <span>FITWELL</span>
                 </div>
                 <p class="blue-text">Create your account</p>
                 <form action="" id="msform">
-                    <div>
+                    <!-- <div>
                         <ul class="progressbar">
                             <li class="active">About you</li>
                             <li id="step1">Almost done</li>
                             <li id="step2">Great</li>
                         </ul>
-                    </div>
+                    </div> -->
                     <fieldset>
                         <div class="row">
                             <div class="form-group">
@@ -51,11 +56,20 @@
                                 <input type="tel" id="number" placeholder="0802 445 9067">
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="form-group">
-                                <label for="date">Date of birth</label>
-                                <input type="date" id="date">
+                                <label class=" fieldlabel" for="height">Height(in cm)</label>
+                                <input type="number" id="height" placeholder="Enter your height in cm">
                             </div>
+                            <div class="form-group">
+                                <label for=" weight">Weight(in Kg)</label>
+                                <input type="number" id="weight" placeholder="Enter your weight in kg">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                          
                             <div class="form-group">
                                 <label for=" sex">Sex</label>
                                 <select id="sex" class="select">
@@ -64,13 +78,20 @@
                                     <option value="female">Female</option>
                                 </select>
                             </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" placeholder="Password">
+                            </div>
                         </div>
-                        <div>
-                            <button type="button" id="next1" class="next btn ">Next</button>
+                        <div class="row">
+
+                            <div class="form-group">
+                                <button type="submit" class="btn">Create account</button>
+                            </div>
                         </div>
                     </fieldset>
 
-                    <fieldset>
+                    <!-- <fieldset>
                         <div>
                             <div class="row">
                                 <div class="form-group">
@@ -136,11 +157,17 @@
                         <div>
                             <button type="submit" class="btn">Create account</button>
                         </div>
-                    </fieldset>
+                    </fieldset> -->
+
+                    <div class="signup-label">
+                        <p>Already Signup?</p>
+                        <a href="login.html">Login</a>
+                      </div>
+
                 </form>
             </div>
         </div>
-        </div>
+        <!-- </div> -->
     </section>
     <script src="../assets/js/sign-up.js"></script>
 </body>
