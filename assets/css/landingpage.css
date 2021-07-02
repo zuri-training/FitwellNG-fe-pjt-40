@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Sarabun', sans-serif;
+  font-size: 0.9375rem;
 }
 
 /* Totop Navigation */
@@ -168,7 +169,7 @@ div.btn-desk {
   background-color: #ee2234;
   border-radius: 50px;
   bottom: -12px;
-  left: 23%;
+  left: 19%;
 }
 
 .cpp2 {
@@ -184,7 +185,12 @@ div.btn-desk {
   background-color: #ee2234;
   border-radius: 50px;
   bottom: -12px;
-  left: 16%;
+  left: 10%;
+}
+
+.cd-img img{
+  width: 60px;
+  height: auto;
 }
 
 .viewall a {
@@ -192,7 +198,7 @@ div.btn-desk {
   text-decoration: none;
   color: #ee2234;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.04em;
 }
@@ -327,11 +333,15 @@ div.btn-desk {
   position: relative;
 }
 
-.footer-logo {
+/* .footer-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+} */
+
+.footer-logo img{
+  width: 100px;
 }
 
 .hr {
