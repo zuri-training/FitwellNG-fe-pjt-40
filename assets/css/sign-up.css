@@ -11,7 +11,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Sarabun;
-  width: 100%;
 }
 
 /* Main Section */
@@ -182,6 +181,16 @@ label {
   .main {
     height: 100vh;
     margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .spaceit {
+    font-size: 15px;
+  }
+
+  .forpass {
+    margin: 15px auto;
   }
 }
 
