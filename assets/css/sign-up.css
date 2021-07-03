@@ -169,7 +169,7 @@ label {
 }
 
 @media screen and (max-width: 960px) {
-  .image-bg {
+  .rhs-container {
     display: none;
   }
 
