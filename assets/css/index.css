@@ -117,7 +117,7 @@ div.btn-desk {
 /* Hero Section */
 
 .hero {
-  background-image: url('../images/landing/hero.png');
+  background-image: url('../images/index/hero.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,7 +188,7 @@ div.btn-desk {
   left: 10%;
 }
 
-.cd-img img{
+.cd-img img {
   width: 60px;
   height: auto;
 }
@@ -340,7 +340,7 @@ div.btn-desk {
   height: 100%;
 } */
 
-.footer-logo img{
+.footer-logo img {
   width: 100px;
 }
 
