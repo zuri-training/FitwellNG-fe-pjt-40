@@ -11,11 +11,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Sarabun;
+  width: 100%;
 }
 
 /* Main Section */
 .main {
   height: 100vh;
+  width: 100%;
 }
 /* End Main Section */
 .myrow {
