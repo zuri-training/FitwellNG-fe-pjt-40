@@ -160,6 +160,10 @@ label {
   padding: 0 10px;
 }
 
+.text-red {
+  color: #ee2234 !important;
+}
+
 .image-bg img {
   width: 100%;
   min-height: 100vh;
@@ -183,6 +187,13 @@ label {
   }
 }
 
-.text-red {
-  color: #ee2234 !important;
+@media (max-width: 768px) {
+  .d-mflex {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .forpass {
+    margin: 15px auto;
+  }
 }
