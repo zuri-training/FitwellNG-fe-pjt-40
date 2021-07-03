@@ -11,15 +11,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Sarabun;
-}
-
-body {
-  width: 100vw;
-  max-width: 1440px !important;
+  width: 100%;
 }
 
 /* Main Section */
 .main {
+  width: 100%;
   height: 100vh;
 }
 /* End Main Section */
