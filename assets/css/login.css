@@ -188,7 +188,7 @@ label {
   background-repeat: no-repeat;
 }
 
-/* @media screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .rhs-container {
     display: none;
   }
@@ -201,7 +201,7 @@ label {
     height: 100vh;
     margin: 0;
   }
-} */
+}
 
 @media (max-width: 768px) {
   .d-mflex {
