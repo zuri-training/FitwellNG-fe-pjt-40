@@ -184,7 +184,7 @@ label {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 960px) {
+@media only screen and (max-width: 960px) {
   .rhs-container {
     display: none;
   }
@@ -199,7 +199,7 @@ label {
   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .d-mflex {
     display: flex !important;
     flex-direction: column !important;
@@ -207,5 +207,20 @@ label {
 
   .forpass {
     margin: 15px auto;
+  }
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1400px) {
+  body,
+  *,
+  label {
+    font-size: 30px !important;
+  }
+  input[type='text'],
+  input[type='number'],
+  input[type='password'],
+  input[type='email'],
+  .btn {
+    min-height: 78px !important;
   }
 }

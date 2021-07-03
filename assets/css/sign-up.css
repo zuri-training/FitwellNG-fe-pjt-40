@@ -169,7 +169,7 @@ label {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 960px) {
+@media only screen and (max-width: 960px) {
   .rhs-container {
     display: none;
   }
@@ -184,7 +184,7 @@ label {
   }
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .spaceit {
     font-size: 15px;
   }
@@ -269,4 +269,19 @@ input[type='number'],
 input[type='password'],
 input[type='email'] {
   min-height: 48px !important;
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1400px) {
+  body,
+  *,
+  label {
+    font-size: 30px !important;
+  }
+  input[type='text'],
+  input[type='number'],
+  input[type='password'],
+  input[type='email'],
+  .btn {
+    min-height: 78px !important;
+  }
 }
