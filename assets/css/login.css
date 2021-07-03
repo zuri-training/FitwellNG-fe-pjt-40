@@ -13,6 +13,11 @@
   font-family: Sarabun;
 }
 
+body {
+  width: 100vw;
+  max-width: 1440px !important;
+}
+
 /* Main Section */
 .main {
   height: 100vh;
@@ -56,6 +61,17 @@
 
   /* identical to box height */
   letter-spacing: 0.04em;
+}
+
+.btn {
+  min-height: 48px !important;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='password'],
+input[type='email'] {
+  min-height: 48px !important;
 }
 
 .logo-text {
@@ -172,7 +188,7 @@ label {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 960px) {
+/* @media screen and (max-width: 960px) {
   .rhs-container {
     display: none;
   }
@@ -185,7 +201,7 @@ label {
     height: 100vh;
     margin: 0;
   }
-}
+} */
 
 @media (max-width: 768px) {
   .d-mflex {

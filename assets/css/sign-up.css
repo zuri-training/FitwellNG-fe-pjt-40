@@ -228,6 +228,14 @@ label {
   height: 32px !important;
 }
 
+.btn {
+  min-height: 48px !important;
+}
+
+input {
+  min-height: 48px !important;
+}
+
 .pop-text {
   font-family: Sarabun;
   font-style: normal;
@@ -243,4 +251,11 @@ label {
 
 .modal.popup {
   display: block;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='password'],
+input[type='email'] {
+  min-height: 48px !important;
 }
