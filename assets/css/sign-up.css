@@ -284,4 +284,18 @@ input[type='email'] {
   .btn {
     min-height: 78px !important;
   }
+
+  .modal-content {
+        max-width: 580px;
+    max-height: 580px;
+  
+  }
+
+  .logo-text {
+    font-size: 50px !important;
+  }
+  
+  .logo img {
+    width: 20%;
+  }
 }

@@ -223,4 +223,13 @@ label {
   .btn {
     min-height: 78px !important;
   }
+
+  .logo-text {
+    font-size: 50px !important;
+  }
+  
+  .logo img {
+    width: 20%;
+  }
 }
+
