@@ -271,7 +271,7 @@ input[type='email'] {
   min-height: 48px !important;
 }
 
-@media only screen and (max-width: 2560px) and (min-width: 1400px) {
+@media only screen and (max-width: 2560px) and (min-width: 1439px) {
   body,
   *,
   label {
@@ -283,5 +283,19 @@ input[type='email'] {
   input[type='email'],
   .btn {
     min-height: 78px !important;
+  }
+
+  .modal-content {
+        max-width: 580px;
+    max-height: 580px;
+  
+  }
+
+  .logo-text {
+    font-size: 60px !important;
+  }
+  
+  .logo img {
+    width: 20%;
   }
 }
