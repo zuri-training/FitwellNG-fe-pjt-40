@@ -224,6 +224,93 @@ div.btn-desk {
   left: 0;
 }
 
+/* hero section2 */
+
+.hero-section2{
+  width: 100vw;
+  height: 400px;
+  padding: 2rem;
+}
+
+.hero-content-heading{
+  text-align: center;
+}
+
+.hero-content-heading h3{
+  line-height: 31px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  color: #0a2c44;
+}
+
+.hero-content-heading p{
+  max-width: 955px;
+  margin: auto;
+  padding-top: 2.7rem;
+  line-height: 40px;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #0A2c44;
+}
+
+.hero-content-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+
+}
+
+div.hero-content-btn a {
+  background: #DA0013;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  padding: 10px 30px;
+  border-radius: 6px;
+  letter-spacing: 2px;
+}
+
+/* why fitwell */
+
+.hero-info{
+  width: 100vw;
+  padding: 3rem;
+  background: #0a2c44;
+  text-align: center;
+}
+
+.hero-about{
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.info{
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.if-img img{
+  width: 52.49px;
+  height: 53.33px;
+}
+
+.if-img p{
+  width: 323px;
+  padding-top: 3rem;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04rem;
+  color: #ffffff;
+}
+
 /* popular Exercise */
 
 .vid {
@@ -490,4 +577,10 @@ div.btn-desk {
   .footer-icon {
     margin-bottom: 10px;
   }
+}
+
+/* fitwell logo */
+.img-new{
+  width: 187.5px;
+  height: 48px;
 }
