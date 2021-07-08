@@ -141,6 +141,7 @@ div.btn-desk {
   flex-direction: column;
 }
 
+
 .pp {
   position: relative;
 }
@@ -168,11 +169,11 @@ div.btn-desk {
   height: 4px;
   background-color: #ee2234;
   border-radius: 50px;
-  bottom: -12px;
-  left: 19%;
+  bottom: -8px;
+  left: 0;
 }
 
-.cpp2 {
+/* .cpp2 {
   position: relative;
 }
 
@@ -201,7 +202,7 @@ div.btn-desk {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.04em;
-}
+} */
 
 /* Quick Tips Section */
 
@@ -272,7 +273,6 @@ div.hero-content-btn a {
   letter-spacing: 0.04em;
   padding: 10px 30px;
   border-radius: 6px;
-  letter-spacing: 2px;
 }
 
 /* why fitwell */
@@ -313,37 +313,97 @@ div.hero-content-btn a {
 
 /* popular Exercise */
 
-.vid {
+.container-1{
+  display: flex;
+  padding: 1rem;
+  margin: 0;
+}
+.row-1{
+  width: fit-content;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: left;
+}
+
+.row-1 .img-fluid{
+  width: 240px;
+  height: 240px;
+  margin: 15px;
+}
+
+div.yoga, .treadmill, .isometry, .lifting{
   position: relative;
 }
 
-.vid-icon {
+.vid-icon{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 30%;
+  left: 35%;
+  transform: translate(-10%);
+}
+
+.vid-content{
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  width: 192px;
+  height: 43px;
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.04em;
   transform: translate(-50%, -50%);
 }
 
-.vid .img-fluid {
-  width: 100%;
-  height: 309px;
+.row-text{
+  width: 50%;
+  margin: 10px;
 }
 
-.vid-content {
-  position: absolute;
-  color: #fff;
-  width: 80%;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.row-text h3{
+  margin-left: inherit;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0.04em;
+  line-height: 31px;
+  color: #000000;
+}
+.row-text p{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: #000000;
 }
 
-.time {
-  background-color: #fff;
-  color: black;
-  padding: 6px 14px;
-  border-radius: 10px;
+.buttons{
+  display: flex;
+  padding-top: 3rem;
+  margin-left: inherit;
 }
+
+.buttons a{
+  margin: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  padding: 10px 30px;
+  border-radius: 6px;
+}
+
+.b2{
+  background: #ee2234;
+}
+
+.b1{
+  background: #0A2c44;
+}
+
 
 /* Heading */
 
