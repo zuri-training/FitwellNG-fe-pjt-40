@@ -10,6 +10,11 @@
   font-size: 16px;
 }
 
+.cb {
+  height: 250.2px;
+  box-sizing: border-box !important;
+}
+
 /* Totop Navigation */
 
 #topicon {
@@ -179,19 +184,19 @@ div.btn-desk {
 
 /* Hero Section */
 
-.tipoff,
+/* .tipoff,
 .m-tip {
   display: flex;
   flex-direction: column;
-
   height: 608px;
-}
+} */
 
 .hero-text {
   font-family: Sarabun;
-  font-style: normal;
   font-weight: 300;
-  width: 659px;
+  /* width: 659px; */
+  /* text-align: left; */
+  margin-right: 23px;
   font-size: 1.5rem;
   line-height: 31px;
   letter-spacing: 0.04em;
@@ -219,7 +224,7 @@ div.btn-desk {
   width: 100%;
   height: 575px;
   top: 0;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .h3-header {
@@ -243,7 +248,7 @@ div.btn-desk {
 /* About writeup */
 
 .about-writeup p {
-  text-align: justify;
+  text-align: left;
   margin-top: 36px;
 }
 
@@ -301,10 +306,22 @@ div.btn-desk {
   height: 42px;
 }
 
-/* .footer-icon img {
+.ins {
   width: 24px;
   height: 24px;
-} */
+}
+.fb {
+  width: 11px;
+  height: 22px;
+}
+.tw {
+  width: 24px;
+  height: 27px;
+}
+.yt {
+  width: 28px;
+  height: 28px;
+}
 
 #card-mb {
   display: flex !important;
@@ -390,83 +407,46 @@ div.btn-desk {
   .header {
     position: relative;
   }
-
-  .h3-header,
-  .lor {
-    text-align: center;
-  }
-}
-
-@media (max-width: 1199px) {
-  .h3-header {
-    font-size: 30px;
-    line-height: 40px;
-    letter-spacing: 0.04em;
-  }
-
-  .tipoff {
-    margin-top: 5px !important;
-  }
-
-  .img-stack img {
-    margin: 10px 0 !important;
-  }
-
-  .about-img img {
-    width: 100%;
-    height: auto;
-  }
-
-  .img-stack {
-    display: flex;
-    float: none;
-  }
-
-  .img-stack img {
-    width: 250px;
-    padding: 10px;
-    height: auto;
-  }
-
-  .m-tip {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 408px) {
-  .btn-hide-mb {
-    display: flex;
-  }
-
-  div.btn-desk {
-    display: none !important;
-  }
 }
 
 @media only screen and(min-width: 768px) {
-  .hero-text {
-    text-align: center !important;
-  }
-
   .footer-left .logo {
     width: 10% !important;
   }
+
+  .mybg-nav .logo {
+    width: 2.094rem;
+    height: 1.625rem;
+  }
+
+  .logo-text {
+    font-size: 20px !important;
+  }
+
+  .hero-content-inner {
+    margin: 0 !important;
+  }
+
+  .h3-header {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .hero-about {
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  .hero-content-inner {
+    width: 100% !important;
+  }
+
+  .about-writeup h3 {
+    margin: 0 !important;
+  }
 }
 
-.ins {
-  width: 24px;
-  height: 24px;
-}
-.fb {
-  width: 11px;
-  height: 22px;
-}
-.tw {
-  width: 24px;
-  height: 27px;
-}
-.yt {
-  width: 28px;
-  height: 28px;
+@media only screen and (max-width: 410px) {
+  .my-btn {
+    display: none !important;
+  }
 }
