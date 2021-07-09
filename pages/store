@@ -1,0 +1,138 @@
+<!-- calorie progress bar -->
+                                <div class="progress-box">
+                                    <div class="rotate">
+                                        <div class="rotate1"></div>
+                                        <div class="rotate2"></div>
+                                        <div class="rotate3"></div>
+                                        <div class="progress-content">
+                                            <h1 id="count">3560</h1>
+                                            <p>calories</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- progress bar end -->
+
+
+
+                                <!-- <aside class="sub-dashboard">
+                    <article class="session">
+                        <h3>Next Workout Session :</h3>
+                        <p>11:56:24</p>
+                    </article>
+                    <div class="programs">
+                        <article>
+                            <p>Calories Burnt</p>
+                            <div class="program-content">
+                                <img src="../assets/images/dashboard-image/icons/calorie.png" alt="calorie">
+                                <!-- calorie progress bar -->
+                                <div class="progress-box">
+                                    <div class="rotate">
+                                        <div class="rotate1"></div>
+                                        <div class="rotate2"></div>
+                                        <div class="rotate3"></div>
+                                        <div class="progress-content">
+                                            <h1 id="count">3560</h1>
+                                            <p>calories</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- progress bar end -->
+                            </div>
+                        </article>
+                        <article>
+                            <p>Sessions Completed</p>
+                            <div class="program-content red">
+                                <img src="../assets/images/dashboard-image/icons/workout.png" alt="session">
+                                <span>24</span>
+                                <p>Sessions</p>
+                            </div>
+                        </article>
+                        <article>
+                            <p>Days Completed</p>
+                            <div class="program-content green">
+                                <img src="../assets/images/dashboard-image/icons/star.png" alt="star">
+                                <span>5</span>
+                                <p>days</p>
+                            </div>
+                        </article>
+                    </div>
+                </aside> -->
+
+
+
+                ##progress bar css##
+                /* progress bar start */
+/* .progress-box {
+    width: 150px;
+    height: 150px;
+}
+.rotate {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: var(--white);
+    overflow: hidden;
+    position: relative;
+}
+.rotate1, .rotate2, .rotate3 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: right center;
+}
+.rotate1 {
+    background: var(--dark-red);
+}
+.program-content:hover .rotate1 {
+    transform: rotate(180deg);
+    transition: 1s transform linear;
+}
+.rotate2 {
+    background: var(--dark-red);
+}
+.program-content:hover .rotate2{
+    transform: rotate(320deg);
+    transition: 1.6s transform linear;
+}
+.rotate3 {
+    background: var(--white);
+}
+.program-content:hover .rotate3 {
+    opacity: 0;
+    transition: 0s linear 1s;
+}
+.progress-content {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--dark-blue);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.progress-content p {
+    font-size: 16px;
+    font-weight: 400;
+}
+/* progress bar end */
+/*.red {
+    background: var(--dark-red);
+}
+.green {
+    background: var(--peach-green);
+}
+.program-content img {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+} */
