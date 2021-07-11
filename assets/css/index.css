@@ -464,7 +464,6 @@ div.btn-desk {
   width: fit-content;
   display: grid;
   grid-template-columns: auto auto;
-  justify-content: left;
 }
 
 .row-1 .img-fluid{
@@ -479,17 +478,51 @@ div.yoga, .treadmill, .isometry, .lifting{
 
 .vid-icon{
   position: absolute;
-  top: 30%;
-  left: 35%;
+  top: 40%;
+  left: 40%;
   transform: translate(-10%);
 }
 
-.vid-content{
+.vid-content1 h3{
   position: absolute;
   top: 80%;
-  left: 45%;
-  width: 192px;
-  height: 43px;
+  left: 40%;
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  transform: translate(-50%, -50%);
+}
+
+.vid-content2 h3{
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  transform: translate(-50%, -50%);
+}
+
+.vid-content3 h3{
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  transform: translate(-50%, -50%);
+}
+
+.vid-content4 h3{
+  position: absolute;
+  top: 80%;
+  left: 40%;
   color: #ffffff;
   font-size: 14px;
   font-style: normal;
@@ -861,8 +894,263 @@ div.yoga, .treadmill, .isometry, .lifting{
     width: 6px;
   }
 
+  .row-1{
+    width: fit-content;
+    grid-template-columns: none;
+    height: 360px;
+  }
+  
+  .row-1 .img-fluid{
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+
+  }
+
+  .yoga, .treadmill{
+    width: fit-content;
+    height: 170px;
+    background: #f1f1f1;
+    border-radius: 0px 0px 3px 3px;
+  }
+
+  .isometry{
+    display: none;
+  }
+
+  .lifting{
+    display: none;
+  }
+
+  .vid-icon{
+    top: 40%;
+    left: 45%;
+    transform: translate(-10%);
+  }
+
+  .vid-icon img{
+    width: 15px;
+  }
+
+
+  .vid-content1 h3{
+    top: 90%;
+    left: 50%;
+    height: 15px;
+    line-height: 10px;
+    width: fit-content;
+    font-size: 9px;
+    color: #464444;
+  }
+
+  .vid-content2 h3{
+    top: 90%;
+    left: 50%;
+    height: 15px;
+    line-height: 10px;
+    width: fit-content;
+    font-size: 9px;
+    color: #464444;
+  }
+
+  .row-text{
+    width: 400px;
+    margin: 10px;
+  }
+  
+  .row-text h3{
+    font-size: 12px;
+    margin-top: -10px !important;
+    line-height: 14px;
+  }
+
+  .row-text p{
+    font-size: 10px;
+    font-weight: 200px;
+    line-height: 18px;
+    color: #464444;
+  }
+
+  .buttons{
+    padding-top: 2rem;
+    margin-left: inherit;
+  }
+  
+   .buttons a{
+    margin: 10px;
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    padding: 6px 15px;
+    border-radius: 3px;
+  }
+
+  .my-5 {
+    margin-top: -5px !important;
+    margin-bottom: 5px !important;
+    max-width: 100vw;
+    margin: 0;
+  }
+
+  .my-5 .qp{
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: -5px !important;
+  }
+  
+  .container2{
+    box-shadow: 0px 0px 1px 0.5px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 6px 6px 0px;
+  }
+  
+  .row-blog img{
+    width: 140px;
+    height: 140px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+  }
+  
+  .row-fitness h3{
+    margin-top: -5px !important;
+    margin-bottom: -3px !important;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: 0.04em;
+  }
+  
+  .row-fitness span{
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 10px;
+    letter-spacing: 0.04em;
+  }
+  
+  .row-fitness p{
+    font-weight: 300;
+    font-size: 7px;
+    line-height: 12px;
+    letter-spacing: 0.04em;
+  }
+  
+  .butn {
+    padding-top: 0.5rem;
+  }
+  
+  .butn a{
+    font-size: 7px;
+    font-weight: 600;
+    line-height: 8px;
+    letter-spacing: 0.04em;
+  }
+
+  .hero-section3{
+    width: 100vw;
+  }
+  
+  .hero-content-heading2 h3{
+    margin-top: -10px !important;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+  }
+  
+  .hero-content-heading2 p{
+    max-width: 500px;
+    padding-top: 1rem;
+    font-size: 8px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+  }
+  
+  .hero-content-btn2{
+    padding-top: 1rem;
+  }
+  
+  .hero-content-btn2 a{
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+    letter-spacing: 0.04em;
+  }
+  
+  .hero-sec4{
+    padding-top: 1rem;
+  }
+  
+  .hero-sec4 h3{
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+  }
+  
+  .hero-sec4 p{
+    max-width: 300px;
+    padding-top: 1rem;
+    font-size: 8px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+  }
+  
+  .hero-sec4 h4{
+    padding: 1rem;
+    font-size: 8px;
+    letter-spacing: 0.04em;
+  }
+  
+  .ellipse-img img{
+    width: 6px;
+    margin-top: -5px !important;
+  }
+
+  .my-9{
+    padding-top: 1rem;
+  }
+  
+  .my-9 h3{
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+  }
+  
+  .row8{
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns:auto auto auto;
+  }
+
+  .p-3 {
+    padding: 1rem!important;
+  }
+  .col-4 {
+    flex: 0 0 auto;
+    width: fit-content;
+    margin: 20px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+  }
+
+  
+  /* .mt-5 h4{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+  
+  .mt-5 a{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+  
+  .footer-logo img {
+    margin-right: 50px;
+    width: 180px;
+  } */
 
 }
+
 @media (max-width: 991px) {
   .navbar-brand img {
     width: 100%;
@@ -969,13 +1257,28 @@ div.yoga, .treadmill, .isometry, .lifting{
     margin-top: 30px !important;
   } */
 
-  .footer-container {
-    height: 100%;
-    background: #0a2c44;
+  .cpp::after {
+    width: 53px;
+    height: 2px;
+    border-radius: 0;
   }
 
-  .cpp::after {
-    display: none;
+  .qp::after {
+    width: 33px;
+    height: 2px;
+    border-radius: 0px;
+  }
+
+  .cpp3::after{
+    width: 31px;
+    height: 2px;
+    border-radius: 0px
+  }
+
+  .qp2::after{
+    width: 50px;
+    height: 2px;
+    border-radius: 0px;
   }
 }
 
