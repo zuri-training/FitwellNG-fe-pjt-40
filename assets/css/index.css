@@ -398,6 +398,7 @@ div.btn-desk {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
+
 .info{
   padding-top: 3rem;
   display: flex;
@@ -773,12 +774,23 @@ div.yoga, .treadmill, .isometry, .lifting{
 
 .footer-container {
   background: #0a2c44;
-  height: 250px;
+  width: 100vw;
+  text-align: center;
 }
 .row-footer {
+  margin: auto;
   display: flex;
   justify-content: space-around;
 }
+
+.text-white{
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  width: 70%;
+}
+
+
 
 .mt-5 h4{
   text-decoration: none;
@@ -908,9 +920,9 @@ div.yoga, .treadmill, .isometry, .lifting{
   }
 
   .yoga, .treadmill{
-    width: fit-content;
+    width: 150px;
     height: 170px;
-    background: #f1f1f1;
+    background: #ecebeb;
     border-radius: 0px 0px 3px 3px;
   }
 
@@ -945,7 +957,7 @@ div.yoga, .treadmill, .isometry, .lifting{
 
   .vid-content2 h3{
     top: 90%;
-    left: 50%;
+    left: 55%;
     height: 15px;
     line-height: 10px;
     width: fit-content;
@@ -992,7 +1004,7 @@ div.yoga, .treadmill, .isometry, .lifting{
   }
 
   .my-5 .qp{
-    font-size: 12px;
+    font-size: 10px;
     line-height: 14px;
     margin-top: -5px !important;
   }
@@ -1011,31 +1023,32 @@ div.yoga, .treadmill, .isometry, .lifting{
   .row-fitness h3{
     margin-top: -5px !important;
     margin-bottom: -3px !important;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 10px;
     letter-spacing: 0.04em;
   }
   
   .row-fitness span{
     font-weight: normal;
-    font-size: 9px;
+    font-size: 8px;
     line-height: 10px;
     letter-spacing: 0.04em;
   }
   
   .row-fitness p{
     font-weight: 300;
-    font-size: 7px;
+    font-size: 6px;
     line-height: 12px;
     letter-spacing: 0.04em;
   }
   
   .butn {
-    padding-top: 0.5rem;
+    margin-top: -15px;
+    padding-top: 0rem;
   }
   
   .butn a{
-    font-size: 7px;
+    font-size: 6px;
     font-weight: 600;
     line-height: 8px;
     letter-spacing: 0.04em;
@@ -1053,7 +1066,7 @@ div.yoga, .treadmill, .isometry, .lifting{
   }
   
   .hero-content-heading2 p{
-    max-width: 500px;
+    max-width: 450px;
     padding-top: 1rem;
     font-size: 8px;
     line-height: 14px;
@@ -1127,27 +1140,62 @@ div.yoga, .treadmill, .isometry, .lifting{
     margin-bottom: -20px;
   }
 
+  .footer-container {
+    width: inherit;
+  }
+  .row-footer {
+    width: 100%;
+    margin: auto;
+  }
   
-  /* .mt-5 h4{
-    text-decoration: none;
+  .text-white{
+    width: 70%;
+    margin-top: -30px !important;
+    /* margin-left: -20px; */
+  }
+
+  .footer-logo{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .footer-logo img{
+    width: 80px;
+  }
+
+  .mt-5 h4{
     font-weight: 600;
-    font-size: 14px;
+    font-size: 7px;
     letter-spacing: 0.04em;
-    color: #ffffff;
   }
   
   .mt-5 a{
-    text-decoration: none;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 6px;
     letter-spacing: 0.04em;
-    color: #ffffff;
   }
-  
-  .footer-logo img {
-    margin-right: 50px;
-    width: 180px;
-  } */
+
+  .footer-icon{
+    display: grid;
+    grid-gap: 1rem;
+    margin-top: -15% !important;
+  }
+
+  .footer-icon .img-fluid{
+    width: 15px;
+  }
+
+  .footer-icon .img-fb{
+    width: 8px;
+  }
+
+  .copyright{
+    padding-top: 0.1rem;
+  }
+
+  .copyright p{
+    font-size: 6px;
+  }
 
 }
 
@@ -1264,7 +1312,7 @@ div.yoga, .treadmill, .isometry, .lifting{
   }
 
   .qp::after {
-    width: 33px;
+    width: 25px;
     height: 2px;
     border-radius: 0px;
   }
@@ -1280,6 +1328,7 @@ div.yoga, .treadmill, .isometry, .lifting{
     height: 2px;
     border-radius: 0px;
   }
+
 }
 
 @media (max-width: 408px) {
@@ -1290,8 +1339,11 @@ div.yoga, .treadmill, .isometry, .lifting{
   div.btn-desk {
     display: none !important;
   }
-  .grand {
-    display: flex;
+}
+
+/* @media (max-width: 425px) {
+   .grand {
+    display: grid;
     justify-content: center;
     flex-direction: column;
     text-align: center;
@@ -1300,33 +1352,7 @@ div.yoga, .treadmill, .isometry, .lifting{
   .footer-icon {
     margin-bottom: 10px;
   }
-}
-
-@media (max-width: 425px) {
-  .grand {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .footer-icon {
-    margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 320px) {
-  .grand {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .footer-icon {
-    margin-bottom: 10px;
-  }
-}
+} */
 
 /* fitwell logo */
 .img-new{
