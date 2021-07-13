@@ -109,6 +109,10 @@ body {
   top: 0;
   left: 0;
 }
+li.present {
+  border: 1px solid var(--dark-blue);
+}
+
 .menu-bar h1 {
   color: var(--dark-blue);
   font-weight: 700;
