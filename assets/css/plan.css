@@ -516,14 +516,14 @@ li.present {
   }
 
   .plans-inner h2 {
-    font-size: 1.563em !important;
+    font-size: 2.263em !important;
     margin: 0 !important;
-    line-height: 28px !important;
+    line-height: 38px !important;
   }
 
   .plans-inner p {
-    font-size: 0.563em !important;
-    line-height: 1.3 !important;
+    font-size: 0.8em !important;
+    line-height: 1.5 !important;
   }
   .navbar {
     display: none;
@@ -1033,7 +1033,12 @@ ul li a {
 /* Plan Section */
 
 .plan-top {
+  background-image: url('../images/plan/plan-top.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
+  height: 200px;
+
   display: flex;
   justify-content: space-between;
   gap: 10px;
