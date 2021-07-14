@@ -35,9 +35,6 @@
   display: block;
 }
 
-.totop.scrollup {
-  display: block;
-}
 
 .totop:hover {
   background-color: #124e78;
