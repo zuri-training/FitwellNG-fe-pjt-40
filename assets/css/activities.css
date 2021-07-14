@@ -31,7 +31,7 @@
   margin: 0;
   padding: 0;
   font-family: var(--font);
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 body {
   width: 100vw;
@@ -117,6 +117,17 @@ li.present {
   top: 0;
   left: 0;
 }
+
+.bi{
+  border: 0 ;
+  font-weight: bolder;
+    display: inline-block;
+    text-rendering: auto;
+    line-height: 2;
+    font-size:30px;
+    color: #0a2c44;
+}
+
 .menu-bar h1 {
   color: var(--dark-blue);
   font-weight: 700;
@@ -186,7 +197,7 @@ li.present {
   min-height: 250px;
 }
 .overview {
-  width: 65%;
+  flex: 65%;
   height: 272px;
   background: var(--dark-gray-v2);
   padding: 16px 20px;
@@ -691,7 +702,7 @@ ul li a {
 .calendar {
   border-radius: 4px;
   overflow: hidden;
-  width: 35%;
+  flex: 35%;
   /* max-width: 382px; */
   height: 272px;
   background-color: #f0f0f0;
