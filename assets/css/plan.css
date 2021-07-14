@@ -506,6 +506,25 @@ li.present {
     height: 100%;
     overflow-x: hidden;
   }
+
+  .timing {
+    flex-direction: column !important;
+  }
+
+  .wkr {
+    margin-top: 15px;
+  }
+
+  .plans-inner h2 {
+    font-size: 1.563em !important;
+    margin: 0 !important;
+    line-height: 28px !important;
+  }
+
+  .plans-inner p {
+    font-size: 0.563em !important;
+    line-height: 1.3 !important;
+  }
   .navbar {
     display: none;
     align-items: center;

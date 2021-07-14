@@ -24,7 +24,9 @@
   --dark-gray: #726f6b;
   --dark-gray-v2: #f0f0f0;
 }
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -215,6 +217,7 @@ li.present {
   width: 100%;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-around;
   flex-wrap: wrap;
 }
@@ -248,8 +251,8 @@ li.present {
   align-items: center;
 }
 .top-icon img {
-  width: 200px;
-  height: 206px;
+  width: 12rem;
+  height: 12.875rem;
 }
 /* exercise $ meal section start */
 .view2 {
@@ -572,8 +575,76 @@ li.present {
   }
 
   .calendar {
-    width: 70% !important;
+    width: 360px !important;
     height: 100% !important;
+    overflow: hidden;
+    margin-top: 30px;
+  }
+
+  .viewtop {
+    flex-direction: column;
+  }
+
+  .left-viewtop-2 {
+    display: flex;
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .bottom-l-viewtop {
+    display: flex;
+    flex-direction: column !important;
+    width: 100% !important;
+    align-items: center;
+  }
+
+  .overview {
+    align-items: center !important;
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .top-icon {
+    margin: 10px auto;
+  }
+
+  .blue,
+  .yellow,
+  .red {
+    width: 100% !important;
+  }
+
+  .top-l-viewtop-2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-r {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .top-r-viewtop,
+  .right-viewtop {
+    width: 100% !important;
+  }
+
+  .monthly-mt {
+    margin-bottom: 15px !important;
+  }
+
+  .ins-content {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    color: var(--white);
+    transform: translate(-50%, -25%);
+    width: 70%;
   }
 
   .video,
@@ -592,6 +663,7 @@ li.present {
     color: var(--dark-blue);
   }
 }
+
 @media (max-width: 400px) {
 }
 
