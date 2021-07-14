@@ -145,7 +145,13 @@
 
         <!-- Chart Section -->
         <section class="chart-section">
-          <div class="l-chart"></div>
+          <div class="l-chart">
+            <script
+              type="text/javascript"
+              src="https://www.gstatic.com/charts/loader.js"
+            ></script>
+            <div id="chart_div"></div>
+          </div>
           <div class="m-chart">
             <!-- calorie progress bar -->
             <article>
@@ -171,15 +177,275 @@
               </div>
             </article>
             <!-- progress bar end -->
+            <div class="lister">
+              <div class="lister-1">
+                <div class="in">
+                  <h5><span id="brick1">ab</span>Cardio</h5>
+                  <p>120 Mins</p>
+                </div>
+                <div class="in2">
+                  <div class="in">
+                    <h5><span id="brick2">ab</span>Stamina</h5>
+                    <p>120 Mins</p>
+                  </div>
+                </div>
+              </div>
+              <div class="lister-2">
+                <div class="in">
+                  <h5><span id="brick3">ab</span>Strength</h5>
+                  <p>120 Mins</p>
+                </div>
+                <div class="in2">
+                  <div class="in">
+                    <h5><span id="brick4">ab</span> Stretching</h5>
+                    <p>120 Mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="r-chart"></div>
+          <div class="r-chart">
+            <div class="r-top">
+              <p>Next Workout Session</p>
+            </div>
+            <div class="r-chart-in">
+              <div class="r-chart-ins">
+                <div class="rc1">
+                  <h3>Crunch</h3>
+                  <p>10:00</p>
+                </div>
+                <div class="rc2">
+                  <h4>40</h4>
+                  <small>Min</small>
+                  <small>Warm-up</small>
+                </div>
+                <div class="rc3">
+                  <h4>20</h4>
+                  <small>Min</small>
+                  <small>Warm-up</small>
+                </div>
+              </div>
+              <div class="r-chart-ins2">
+                <div class="rc1">
+                  <h3>Running</h3>
+                  <p>12:00</p>
+                </div>
+                <div class="rc2">
+                  <h4>40</h4>
+                  <small>Min</small>
+                  <small>Warm-up</small>
+                </div>
+                <div class="rc3">
+                  <h4>20</h4>
+                  <small>Min</small>
+                  <small>Warm-up</small>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         <!-- End of Chart Section -->
 
         <!-- Bottom Chart Section -->
-        <section class="chart-section">
-          <div class="lb-chart"></div>
-          <div class="rb-chart"></div>
+        <section class="chart-section2">
+          <div class="lb-chart">
+            <div class="lb">
+              <div class="lb-l">
+                <button>Current Task</button>
+              </div>
+              <div class="lb-m">
+                <p>Pending Task</p>
+                <p>Completed Task</p>
+                <p>Incompleted Task</p>
+              </div>
+              <div class="lb-r">
+                <img src="../assets/images/analytics/bin.png" alt="" />
+                <img src="../assets/images/analytics/reload.png" alt="" />
+              </div>
+            </div>
+
+            <div class="lb-bottom">
+              <div class="len-1">
+                <div class="run">
+                  <h3><span id="brick5">ab</span>Running</h3>
+                  <p>400 tracks ran</p>
+                </div>
+                <div class="bard">
+                  <h3>48% Completed</h3>
+                  <progress id="file" value="48" max="100">48%</progress>
+                </div>
+                <div class="lb-star">
+                  <img src="../assets/images/analytics/stars-2.png" alt="" />
+                </div>
+                <div class="view">
+                  <p>view</p>
+                </div>
+                <div class="lb-star2">
+                  <img src="../assets/images/analytics/x.png" alt="" />
+                </div>
+              </div>
+              <div class="len-2">
+                <div class="run">
+                  <h3><span id="brick3">ab</span>Crunch</h3>
+                  <p>400 tracks ran</p>
+                </div>
+                <div class="bard">
+                  <h3>86% Completed</h3>
+                  <progress id="file" value="86" max="100">86%</progress>
+                </div>
+                <div class="lb-star">
+                  <img src="../assets/images/analytics/stars-2.png" alt="" />
+                </div>
+                <div class="view">
+                  <p>view</p>
+                </div>
+                <div class="lb-star2">
+                  <img src="../assets/images/analytics/x.png" alt="" />
+                </div>
+              </div>
+              <div class="len-3">
+                <div class="run">
+                  <h3><span id="brick2">ab</span>Jump Rope</h3>
+                  <p>400 tracks ran</p>
+                </div>
+                <div class="bard">
+                  <h3>48% Completed</h3>
+                  <progress id="file" value="48" max="100">48%</progress>
+                </div>
+                <div class="lb-star">
+                  <img src="../assets/images/analytics/stars-2.png" alt="" />
+                </div>
+                <div class="view">
+                  <p>view</p>
+                </div>
+                <div class="lb-star2">
+                  <img src="../assets/images/analytics/x.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rb-chart">
+            <h2>Health Track</h2>
+            <div class="rb1">
+              <article>
+                <div class="program-content program-img">
+                  <img
+                    src="../assets/images/activities/yel.png"
+                    alt="calorie"
+                  />
+                  <!-- calorie progress bar -->
+                  <div class="progress-box1">
+                    <div class="rotate-1">
+                      <div class="rotate1-1"></div>
+                      <div class="progress-content">
+                        <h1 id="count">24</h1>
+                        <p>Sessions</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- progress bar end -->
+                </div>
+              </article>
+              <article>
+                <div class="program-content program-img">
+                  <img
+                    src="../assets/images/activities/str.png"
+                    alt="calorie"
+                  />
+                  <!-- calorie progress bar -->
+                  <div class="progress-box1">
+                    <div class="rotate-1">
+                      <div class="rotate2-2"></div>
+                      <div class="progress-content">
+                        <h1 id="count">5</h1>
+                        <p>Days</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- progress bar end -->
+                </div>
+              </article>
+              <article>
+                <div class="program-content program-img">
+                  <img
+                    src="../assets/images/dashboard-image/icons/calorie.png"
+                    alt="calorie"
+                  />
+                  <!-- calorie progress bar -->
+                  <div class="progress-box1">
+                    <div class="rotate-1">
+                      <div class="rotate3-3"></div>
+                      <div class="progress-content">
+                        <h1 id="count">3560</h1>
+                        <p>Calories</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- progress bar end -->
+                </div>
+              </article>
+            </div>
+            <div class="rb2">
+              <article>
+                <div class="program-content program-img">
+                  <img src="../assets/images/activities/wt.png" alt="calorie" />
+                  <!-- calorie progress bar -->
+                  <div class="progress-box1">
+                    <div class="rotate-1">
+                      <div class="rotate4-4"></div>
+
+                      <div class="progress-content">
+                        <h1 id="count">24</h1>
+                        <p>Sessions</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- progress bar end -->
+                </div>
+              </article>
+              <article>
+                <div class="program-content program-img">
+                  <img
+                    src="../assets/images/activities/ham.png"
+                    alt="calorie"
+                    class="ham"
+                  />
+                  <!-- calorie progress bar -->
+                  <div class="progress-box1">
+                    <div class="rotate-1">
+                      <div class="rotate5-5"></div>
+
+                      <div class="progress-content">
+                        <h1 id="count">3560</h1>
+                        <p>Fats</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- progress bar end -->
+                </div>
+              </article>
+              <article>
+                <div class="program-content program-img">
+                  <img
+                    src="../assets/images/activities/fish.png"
+                    alt="calorie"
+                    class="fish"
+                  />
+                  <!-- calorie progress bar -->
+                  <div class="progress-box1">
+                    <div class="rotate-1">
+                      <div class="rotate6-6"></div>
+                      <div class="progress-content">
+                        <h1 id="count">3560</h1>
+                        <p>Protein</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- progress bar end -->
+                </div>
+              </article>
+            </div>
+          </div>
         </section>
         <!-- End of Bottom Chart Section -->
       </div>
@@ -187,5 +453,6 @@
     </main>
     <!-- container end -->
     <script src="../assets/js/dashboard.js"></script>
+    <script src="../assets/js/analytics.js"></script>
   </body>
 </html>
